@@ -1,0 +1,22 @@
+{
+  "name": "teamworkv2",
+  "version": "1.0.0",
+  "description": "'trying to create teamwork routes",
+  "main": "index.js",
+  "scripts": {
+    "test-init": "./node_modules/jasmine-node/bin/jasmine-node.js init",
+    "test": "./node_modules/jasmine-node/bin/jasmine-node.js"
+  },
+  "author": "jenny",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jasmine-node": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^7.12.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {}
+}
