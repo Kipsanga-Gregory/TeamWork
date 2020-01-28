@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test-init": "./node_modules/jasmine-node/bin/jasmine-node.js init",
-    "test": "./node_modules/jasmine-node/bin/jasmine-node.js"
+    "test": "./node_modules/jasmine-node/bin/jasmine-node.js",
+    "build": "[Node-js] build --output public"
   },
   "author": "jenny",
   "license": "ISC",
